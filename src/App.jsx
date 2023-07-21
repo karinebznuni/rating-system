@@ -1,10 +1,10 @@
 import { useState } from "react";
-import "./App.css";
+import "./App.scss";
 import Feedback from "./components/Feedback";
 import Thanks from "./components/Thanks";
 
 function App() {
-  const [activeRating, setActiveRating] = useState(0);
+  const [activeRating, setActiveRating] = useState(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const onRatingChange = (rate) => {

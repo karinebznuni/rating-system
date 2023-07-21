@@ -1,11 +1,14 @@
-import "./Round.css";
+import "./Round.scss";
 
-export default function Round({ onClick, children, isActive }) {
+export default function Round({ onClick, children, isActive, disabled }) {
   return (
-    <>
-      <div onClick={onClick} className={`round mg ${isActive && "active"}`}>
-        {children}
-      </div>
-    </>
+    <button
+      onClick={onClick}
+      className={`round ${isActive ? "active" : ""} ${
+        disabled ? "disabled" : ""
+      }`}
+    >
+      {children}
+    </button>
   );
 }

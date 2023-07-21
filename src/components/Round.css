@@ -1,23 +1,33 @@
 .round {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 40px;
-    background-color:rgb(48, 47, 49);
-    border-radius: 50%;
-    color: white;
-    font-size: 12px;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  background-color: var(--dark-blue);
+  border-radius: 50%;
+  color: var(--white);
+  font-size: 12px;
+  border: none;
 }
 
-.round:hover, .round.active {
-    background-color: white;
-    color: black;
+.round.disabled {
+  pointer-events: none;
 }
 
-.mg{
-    margin-top: 20px;
-    margin-left: 20px;
+.round:hover {
+  cursor: pointer;
+  background-color: var(--light-grey);
 }
 
+.round.active,
+.round.active:hover {
+  background-color: var(--orange);
+}
+
+@media screen and (max-width: 480px) {
+  .round {
+    height: 35px;
+    width: 35px;
+  }
+}
