@@ -1,4 +1,4 @@
-import "./Feedback.scss";
+import "./Feedback.css";
 import Round from "./Round";
 import star from "../assets/icon-star.svg";
 

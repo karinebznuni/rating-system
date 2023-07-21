@@ -1,4 +1,4 @@
-import "./Round.scss";
+import "./Round.css";
 
 export default function Round({ onClick, children, isActive, disabled }) {
   return (

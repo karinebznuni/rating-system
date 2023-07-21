@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./App.scss";
+import "./App.css";
 import Feedback from "./components/Feedback";
 import Thanks from "./components/Thanks";
 

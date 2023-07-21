@@ -1,4 +1,4 @@
-import "./Thanks.scss";
+import "./Thanks.css";
 import thanks from "../assets/thanks.svg";
 
 export default function Thanks({ activeRating }) {
