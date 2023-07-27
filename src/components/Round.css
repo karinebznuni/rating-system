@@ -1,23 +1,22 @@
 .round {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 40px;
-    background-color:rgb(48, 47, 49);
-    border-radius: 50%;
-    color: white;
-    font-size: 12px;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(48, 47, 49);
+  border-radius: 50%;
+  color: white;
+  font-size: 0.8em;
 }
 
-.round:hover, .round.active {
-    background-color: white;
-    color: black;
+.round:hover,
+.round.active {
+  background-color: white;
+  color: black;
 }
 
-.mg{
-    margin-top: 20px;
-    margin-left: 20px;
+.mg {
+  margin-top: 20px;
+  margin-left: 20px;
 }
-
