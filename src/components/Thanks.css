@@ -34,6 +34,16 @@
   font-size: 12px;
   margin-left: 20px;
   margin-right: 20px;
-  margin-bottom: 40px;
   text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .card2 {
+    width: 80%;
+  }
+
+  .text4,
+  .text2 {
+    font-size: 14px;
+  }
 }

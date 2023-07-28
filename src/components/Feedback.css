@@ -1,5 +1,7 @@
 .card1 {
-  background-color: rgb(27, 28, 27);
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark-blue);
   border-radius: 20px;
   padding: 20px;
   max-width: 350px;
@@ -26,7 +28,7 @@ p {
 .submit {
   width: 100%;
   margin-top: 20px;
-  padding: 7px;
+  padding: 10px;
   font-size: 12px;
   background-color: var(--orange);
   color: var(--white);
@@ -46,4 +48,13 @@ p {
 .submit:disabled {
   color: var(--white);
   background-color: var(--light-grey);
+}
+
+@media only screen and (max-width: 600px) {
+  .card1 {
+    width: 80%;
+  }
+  p {
+    font-size: 14px;
+  }
 }
