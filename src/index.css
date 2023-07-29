@@ -17,8 +17,4 @@ body {
 
   /* Fonts */
   --font-main: "Overpass", sans-serif;
-
-  /* Breakpoints */
-  --breakpoint-mobile: 480px;
-  --breakpoint-desktop: 1440px;
 }
