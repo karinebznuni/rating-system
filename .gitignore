@@ -25,3 +25,7 @@ dist-ssr
 
 # Design Files
 design/*
+
+# Vite 
+.vite
+.vite/*
