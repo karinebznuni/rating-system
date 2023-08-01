@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 16px);
+  height: 100vh;
   background-color: var(--very-dark-blue);
   font-family: var(--font-main);
 }
